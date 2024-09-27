@@ -8,3 +8,11 @@ nav{
 header{
     text-align: center;
 }
+
+.card {
+    margin: 2rem auto auto auto;
+}
+
+h5 {
+    text-align: center;
+}
