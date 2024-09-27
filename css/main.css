@@ -1,5 +1,6 @@
 body {
     background-color: beige;
+    padding: 1rem;
     
 }
 nav{
@@ -15,4 +16,11 @@ header{
 
 h5 {
     text-align: center;
+}
+
+th {
+    padding: .5rem 1rem .5rem;
+}
+td {
+    padding: 0 1rem 0 1rem;
 }
