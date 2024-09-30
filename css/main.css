@@ -49,10 +49,28 @@ p {
     text-align: center;
 }
 .login {
-    text-align: center;    
+    text-align: center; 
+       
 }
 h4 {
     margin-top: .5rem;
     margin-left: auto;
     margin-right: auto;
+}
+.card {
+    display: inline-flex;
+    width: 50%;
+    display: table;
+    clear: both;
+}
+.card ::after {
+    float: right;
+    display: table;
+    clear: both;
+}
+.register {
+    text-align: center ;
+}
+div.password {
+    margin-top: .5rem ;
 }
