@@ -22,5 +22,37 @@ th {
     padding: .5rem 1rem .5rem;
 }
 td {
-    padding: 0 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
+}
+nav {
+    margin: 1rem auto 1rem auto ;
+    
+}
+.card {  
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 1rem;
+   width: 100%;
+}
+.dropdown {
+    margin: 1rem auto 1rem auto;
+}
+.HomePic{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 1rem;
+   width: 50%;
+}
+p {
+    text-align: center;
+}
+.login {
+    text-align: center;    
+}
+h4 {
+    margin-top: .5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
