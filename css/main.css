@@ -43,7 +43,7 @@ nav {
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 1rem;
-   width: 50%;
+   width: 80%;
 }
 p {
     text-align: center;
@@ -63,14 +63,18 @@ h4 {
     display: table;
     clear: both;
 }
-.card ::after {
-    float: right;
-    display: table;
-    clear: both;
-}
+
+
 .register {
     text-align: center ;
 }
 div.password {
     margin-top: .5rem ;
+}
+
+.img-fluid {
+    margin-top: 1.25rem;
+    margin-left: .5rem;
+    height: 35%;
+    width: 90%;
 }
