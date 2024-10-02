@@ -107,15 +107,14 @@ header {
   text-align: center;
 }
 
-  .btn {
-    background-color: gray;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    width: auto;
-  }
+#Check_Btn {
+  background-color: gray;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: auto;
+}
 
-  .btn:hover {
-    background-color: gray;
-  }
-
+.btn:hover {
+  background-color: gray;
+}
