@@ -4,6 +4,7 @@
 
 Welcome to the Capstone Project website! This project serves as a portfolio showcasing the skills and knowledge I have acquired throughout my journey in web development. The site features various sections, including project highlights, a product page, and testimonials from notable figures.
 
+
 ## Features
 
 - **Responsive Design**: The website is optimized for both desktop and mobile devices, ensuring a seamless user experience.
