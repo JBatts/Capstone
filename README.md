@@ -18,9 +18,12 @@ Welcome to the Capstone Project website! This project serves as a portfolio show
 - **Responsive Design**: The website is optimized for both desktop and mobile devices, ensuring a seamless user experience.
 - **Interactive Elements**: Engage with different components, including product displays and user testimonials.
 - **Clear Navigation**: Easily explore the website's content with a user-friendly navigation menu.
+- **Moving Background**: The overall website has a moving background for all pages. 
 
 ## Technologies Used
 
+- W3Schools
+- Bootstrap
 - HTML5
 - CSS3
 - JavaScript
