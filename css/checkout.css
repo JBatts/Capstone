@@ -64,9 +64,10 @@ label {
 }
 
 .icon-container {
-  margin-bottom: 20px;
-  padding: 7px 0;
+  margin-bottom: 37px;
+  padding: 7px 0 0 ;
   font-size: 24px;
+
 }
 
 .btn {
@@ -118,3 +119,15 @@ header {
 .btn:hover {
   background-color: gray;
 }
+
+h6 {
+  display: flex;
+  
+  height: 5rem;
+  /* width: auto; */
+  }
+  img {
+    margin-left: 1rem;
+ 
+  }
+  
