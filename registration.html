@@ -28,10 +28,10 @@
     <label><input type="radio" name="how" value="friend"> <em><strong>Friend</strong></em></label>
     <label><input type="radio" name="how" value="family"> <em><strong>Family</strong></em></label>
     <label><input type="radio" name="how" value="other" checked> <em><strong>Other</strong></em></label>
-    <input type="text" placeholder="Full Name" class="register-input" required>
+    <input type="text" placeholder="Username" class="register-input" required minlength="5" maxlength="10">
     <input type="email" placeholder="Email Address" class="register-input" required>
-    <input type="password" placeholder="Create Password" class="register-input" required>
-    <input type="password" placeholder="Confirm Password" class="register-input" required>
+    <input type="password" placeholder="Create Password" class="register-input" required minlength="5" maxlength="15">
+    <input type="password" placeholder="Confirm Password" class="register-input" required minlength="5" maxlength="15">
     <span class="error-message">Passwords do not match.</span>
     <label class="checkbox-container">
       <input type="checkbox" required> I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy
