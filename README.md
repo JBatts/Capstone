@@ -4,6 +4,14 @@
 
 Welcome to the Capstone Project website! This project serves as a portfolio showcasing the skills and knowledge I have acquired throughout my journey in web development. The site features various sections, including project highlights, a product page, and testimonials from notable figures.
 
+## Screenshots
+![Page1](images/homepage.png)
+![Page2](images/login_page.png)
+![Page3](images/register_page.png)
+![Page4](images/product_1.png)
+![Page4b](images/product_2.png)
+![Page5](images/test_page.png)
+![Page6](images/checkout_page.png)
 
 ## Features
 
