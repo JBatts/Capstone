@@ -3,7 +3,7 @@ body {
     opacity: 90%;
     font-size: 2vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    margin: 0;
 }
 
 
@@ -112,9 +112,7 @@ div.password {
     width: 90%;
 }
 
-body {
-    margin: 0;
-}
+
 
 .icon-bar {
     width: 100%;
@@ -170,5 +168,80 @@ img.HomePic {
     margin: 20px;
 }
 
+.bodyReg {
+    background-color: #f5f9fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
+.register-box {
+    background-color: white; /* Background color */
+    padding: 40px; /* Padding for inner content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    text-align: center;
+    max-width: 400px; /* Max width for the box */
+    width: 100%; /* Make it responsive */
+}
+
+h1, h4 {
+    margin-bottom: 20px;
+}
+
+.register-input {
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.register-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.social-logins {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.social-register {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+}
+
+.checkbox-container {
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+.or-text {
+    margin: 10px 0;
+    color: #000000;
+}
+
+.login-link {
+    color: #3498db;
+    text-decoration: none;
+}

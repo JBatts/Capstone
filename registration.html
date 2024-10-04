@@ -21,13 +21,14 @@
 
 
   <div class="register-form">
-
+    
+      
     <h1>Register Here!</h1>
     <h4>How did you hear about us?</h4>
-    <label><input type="radio" name="how" value="google"> <em><strong>Google </strong></em></label>
-    <label><input type="radio" name="how" value="friend"> <em><strong>Friend</strong></em></label>
-    <label><input type="radio" name="how" value="family"> <em><strong>Family</strong></em></label>
-    <label><input type="radio" name="how" value="other" checked> <em><strong>Other</strong></em></label>
+
+<div class="register-container">
+<div class="register-box">
+
     <input type="text" placeholder="Username" class="register-input" required minlength="5" maxlength="10">
     <input type="email" placeholder="Email Address" class="register-input" required>
     <input type="password" placeholder="Create Password" class="register-input" required minlength="5" maxlength="15">
@@ -37,6 +38,12 @@
       <input type="checkbox" required> I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy
         Policy</a>.
     </label>
+    <label><input type="radio" name="how" value="google"> <em><strong>Google </strong></em></label>
+    <label><input type="radio" name="how" value="friend"> <em><strong>Friend</strong></em></label>
+    <label><input type="radio" name="how" value="family"> <em><strong>Family</strong></em></label>
+    <label><input type="radio" name="how" value="other" checked> <em><strong>Other</strong></em></label>
+
+
     <button type="submit" class="register-btn">Create Account</button>
 
     <p class="or-text"><strong>or</strong></p>
@@ -50,7 +57,8 @@
     <p><strong>Looking for the Homepage? </strong><a href="index.html" class="login-link">Right Here!</a></p>
 
   </div>
-
+</div>
+</div>
 </body>
 
 </html>
