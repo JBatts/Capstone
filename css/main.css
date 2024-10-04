@@ -72,13 +72,30 @@ h4 {
     margin-right: auto;
 }
 
-.card {
+/* .card {
     display: inline-flex;
     width: 50%;
     display: table;
     clear: both;
+} */
+.card {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
+@media (min-width: 576px) {
+    .col-md-4 {
+        width: 33.333%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        width: 25%;
+    }
+}
 
 .register {
     text-align: center;
@@ -143,7 +160,7 @@ img.HomePic {
 }
 
 .H_Pic {
-    display: flex;
+
     justify-content: center;
 }
 
@@ -153,10 +170,5 @@ img.HomePic {
     margin: 20px;
 }
 
-/* .card.mb-3 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-} */
+
 
