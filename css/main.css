@@ -30,6 +30,10 @@ header {
 
 .card {
     margin: 2rem auto auto auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 h5 {
@@ -120,8 +124,9 @@ div.password {
 .img-fluid {
     margin-top: 1.25rem;
     margin-left: .5rem;
-    height: 35%;
-    width: 90%;
+    height: 24vw;
+    width: 24vw;
+    object-fit: contain;
 }
 
 
@@ -269,3 +274,20 @@ h1, h4 {
     
 }
 
+.card-body {
+    flex: 2 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    height: 45vh;
+    /* width: 45vh; */
+    font-size: 1.75vh;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+
+}
+
+.img-fluid.photo {
+    object-fit: cover;
+}
