@@ -280,7 +280,7 @@ h1, h4 {
     color: var(--bs-card-color);
     height: 45vh;
     /* width: 45vh; */
-    font-size: 1.75vh;
+    font-size: 3vh;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
